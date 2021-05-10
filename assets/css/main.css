@@ -133,7 +133,7 @@ input, select, textarea {
 	color: #20ffde;
 }
 .fa-laptop-code {
-	color: #ff8a66;
+	color: #ff6e06;
 }
 
 .logo {
@@ -246,7 +246,7 @@ color: white;
 }
 
 .develop {
-	color: #ff8a66;
+	color: #ff6e06;
 }
 
 
@@ -404,6 +404,7 @@ color: white;
 		position: fixed;
 		top: 0;
 		width: 100%;
+		filter: brightness(50%);
 
 	}
 
