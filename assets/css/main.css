@@ -136,6 +136,10 @@ input, select, textarea {
 	color: #ff8a66;
 }
 
+.logo {
+	margin-bottom: 5%;
+}
+
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
