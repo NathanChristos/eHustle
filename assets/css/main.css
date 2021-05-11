@@ -133,9 +133,11 @@ input, select, textarea {
 	color: #20ffde;
 }
 .fa-laptop-code {
-	color: #ff6e06;
+	color: #fff;
 }
-
+.fa-envelope {
+	color:#ff6e06
+}
 .logo {
 	margin-bottom: 5%;
 }
@@ -161,7 +163,7 @@ input, select, textarea {
 			}
 
 		.icon > .label {
-			display: none;
+			
 		}
 
 		.icon.solid:before {
@@ -243,10 +245,17 @@ color: white;
 .design {
 	color: #20ffde;
 	margin-left: 8%;
+	font-size: 2.25em;
 }
 
 .develop {
 	color: #ff6e06;
+	font-size: 2.25em;
+}
+
+.ecom {
+	color: fff;
+	font-size: 2.25em;
 }
 
 
@@ -607,9 +616,10 @@ color: white;
 		
 
 		#header p {
-			font-size: 2.25em;
+			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 1;
+			font-family: 'Source Sans Pro', sans-serif;;
 		}
 
 		#header nav {
@@ -721,7 +731,7 @@ color: white;
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 0px #fff;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -754,6 +764,8 @@ color: white;
 				#header nav a span {
 					display: none;
 				}
+
+			
 
 /* Footer */
 
