@@ -6,6 +6,16 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/contactcss.css" />
+	<style type="text/css">
+		.antispam { 
+			display:none;
+		}
+	</style>
+		<script type="text/javascript">
+		// split your email into two parts and remove the @ symbol
+		var first = "yourname";
+		var last = "yoursite.com";
+	</script>
 	</head>
 	<div id="bg"></div>
 	<body class="is-preload">
@@ -30,11 +40,17 @@
 			</div>
 
 		<!-- Form -->
+		<?php 
+if(isset($_POST['url']) && $_POST['url'] == ''){
+          mail( 'you@yoursite.com', 'Contact Form', print_r($_POST,true) ); 
+} 
+
+?>
 			<div id="footer">
 				<div class="container medium">
 
 							
-					<form method="post" action="mailto:info@ehustle.com.au">
+					<form method="post" action="submit.php">
 						<div class="row">
 							<div class="col-6 col-12-mobilep">
 								<input type="text" name="name" placeholder="Name"/>
@@ -42,6 +58,7 @@
 							<div class="col-6 col-12-mobilep">
 								<input type="email" name="email" placeholder="Email"/>
 							</div>
+							 <p class="antispam"> <input type="text" name="url" /></p>
 							<div class="col-12">
 								<textarea name="message" placeholder="Message" rows="6"></textarea>
 							</div>
@@ -52,6 +69,14 @@
 							</div>
 						</div>
 					</form>
+<p>My e-mail address:
+					<script type="text/javascript">
+		document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+	</script>
+	<noscript>
+	Please enable javascript or use the contact form.
+	</noscript>
+	</p>
 
 					 <ul class="icons">
 					
@@ -73,4 +98,6 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
+
