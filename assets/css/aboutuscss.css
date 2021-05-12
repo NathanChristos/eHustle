@@ -2260,6 +2260,26 @@ input, select, textarea {
 
 	}
 
+	/*desktop/mobile only */
+	
+    @media screen and (max-width: 600px) {
+  .showonpc {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
+
+    @media screen and (min-width: 900px) {
+  .showonmob { 
+    visibility: hidden;
+    clear: both;
+    display: none;
+     
+  }
+}
+
 /* Panel */
 
 	.panel {
