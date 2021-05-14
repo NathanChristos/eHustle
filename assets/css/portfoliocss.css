@@ -536,14 +536,14 @@ input, select, textarea {
 
 			#main .item.span-2 {
 				width: 30em;
+			
 			}
 
 			#main .item.span-3 {
 				width: 40em;
 			}
 
-			#main .item.intro {				
-				background-image: url("images/googlelogo.png");
+			#main .item.intro {	
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -568,7 +568,8 @@ input, select, textarea {
 					font-size: 1.25em;
 					line-height: 1.5em;
 					margin: 0.5em 0 0 0;
-					opacity: 0.65;
+					opacity: 1;
+					color: white;
 				}
 
 			#main .item.thumb {
@@ -678,6 +679,7 @@ input, select, textarea {
 
 				#main .item.span-2 {
 					width: 25.5em;
+					
 				}
 
 				#main .item.span-3 {
@@ -722,6 +724,7 @@ input, select, textarea {
 					width: calc(50vw - 15px) !important;
 					margin: 2.5px;
 					box-shadow: 0 0 0 5px #ffffff;
+
 				}
 
 					#main .item.intro {
@@ -729,6 +732,7 @@ input, select, textarea {
 						text-align: center;
 						height: auto;
 						padding: 3em;
+
 					}
 
 						#main .item.intro h1 {
@@ -749,6 +753,7 @@ input, select, textarea {
 
 			#main .item {
 				height: 10em;
+
 			}
 
 		}
