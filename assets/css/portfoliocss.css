@@ -294,6 +294,35 @@ input, select, textarea {
   }
 }
 
+
+		#footer .copyright {
+			color: white;
+			font-size: 0.8em;
+			line-height: 1em;
+			margin: 0;
+		}
+
+			#footer .copyright li {
+				border-left: dotted 1px;
+				display: inline-block;
+				margin-left: 1em;
+				padding-left: 1em;
+			}
+
+				#footer .copyright li:first-child {
+					padding: 0;
+					margin: 0;
+					border: 0;
+				}
+
+				#footer .copyright li a, #footer .copyright li span {
+					color: inherit;
+				}
+
+					#footer .copyright li a:hover, #footer .copyright li span:hover {
+						color: #ffffff;
+					}
+
 	#bg {
 		background-size: 2250px auto;
 		width: 6750px;
