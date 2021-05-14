@@ -316,7 +316,7 @@ input, select, textarea {
 				}
 
 				#footer .copyright li a, #footer .copyright li span {
-					color: inherit;
+					color: white;
 				}
 
 					#footer .copyright li a:hover, #footer .copyright li span:hover {
@@ -346,7 +346,7 @@ input, select, textarea {
 			}
 
 			ul.icons li a {
-				opacity: 0.35;
+				opacity:1;
 				color: #fff;
 				-moz-transition: opacity 0.25s ease-in-out;
 				-webkit-transition: opacity 0.25s ease-in-out;
@@ -783,7 +783,7 @@ input, select, textarea {
 
 		#footer > section:last-child {
 			text-align: right;
-			max-width: 36em;
+			max-width: 46em;
 		}
 
 		#footer h2 {
