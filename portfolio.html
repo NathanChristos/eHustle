@@ -5,8 +5,8 @@
 		<title>Portfolio - eHustle</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/portfoliocss.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="preload" href="assets/css/portfoliocss.css" />
+		<noscript><link rel="preload" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -87,6 +87,13 @@
 			<script src="assets/portfolio-js/breakpoints.min.js"></script>
 			<script src="assets/portfolio-js/util.js"></script>
 			<script src="assets/portfolio-js/main.js"></script>
-
+		<script> $('<link>')
+  .appendTo('head')
+  .attr({
+      type: 'text/css', 
+      rel: 'stylesheet',
+      href: 'assets/css/portfoliocss.css'
+  }); 
+</script>
 	</body>
 </html>

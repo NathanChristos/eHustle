@@ -6,7 +6,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<noscript><link rel="preload" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 		<div id="wrapper">
@@ -45,12 +46,12 @@
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
-					<script> $('<link>')
+<script> $('<link>')
   .appendTo('head')
   .attr({
       type: 'text/css', 
       rel: 'stylesheet',
-      href: 'assets/css/main.css'
+      href: 'assets/css/aboutuscss.css'
   }); 
 </script>
 	</body>
